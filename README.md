@@ -14,7 +14,7 @@ Utilising HTML, CSS, JS and D3.js I have created some visualisations of the data
 
 The site is deployed on GitHub pages:
 
-XX
+https://jamesrobertsutcliffe.github.io/wfh-data-viz/
 
 ## Acknowledgments
 
