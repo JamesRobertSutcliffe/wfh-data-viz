@@ -1,0 +1,54 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 900;
+    margin-top: 20px;
+}
+
+.chart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 50px; /* Space between charts */
+}
+
+.tooltip {
+    position: absolute;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    background: lightsteelblue;
+    border: 0;
+    border-radius: 0.5rem;
+    pointer-events: none;
+}
+
+svg {
+    margin: 20px;
+}
+
+.treemap-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    flex-direction: row;
+}
+
+#treemap-chart {
+    width: 1200px; /* Increase width as needed */
+    height: 700px; /* Increase height as needed */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 0;
+}

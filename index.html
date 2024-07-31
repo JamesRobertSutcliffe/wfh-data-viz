@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Responses Visualizations</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <h1>In the past seven days, have you worked from home?</h1>
+    <div class="chart-container">
+        <svg id="bubble-chart"></svg>
+    </div>
+    <div class="chart-container">
+        <svg id="bar-chart"></svg>
+    </div>
+    <p>Data Source: <a href="https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/datasets/publicopinionsandsocialtrendsgreatbritainworkingarrangements" target="_blank" rel="noopener noreferrer">ONS Public Opinions and Social Trends: Great Britain - Working Arrangements</a></p>
+    <h1>Employee advantages and disadvantages of working from home?</h1>
+    <div class="treemap-container">
+        <h2>Advantages</h2>
+        <svg id="treemap-advantages"></svg>
+    </div>
+    <div class="treemap-container">
+        <h2>Disadvantages</h2>
+        <svg id="treemap-disadvantages"></svg>
+    </div>
+    <p>Data Source: <a href="https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/datasets/homeandhybridworkinggreatbritain" target="_blank" rel="noopener noreferrer">ONS Public Opinions and Social Trends: Home and hybrid working, Great Britain</a></p>
+    <div id="tooltip" class="tooltip" style="opacity:0;"></div>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
